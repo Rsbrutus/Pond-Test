@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [com.pond.test.AppTest]" verbose="0">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.pond.test.AppTest">
+        <methods>
+          <include name="updatePond"/>
+          <include name="quitDriver"/>
+          <include name="countAndstorePonds"/>
+        </methods>
+      </class> <!-- com.pond.test.AppTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.pond.test.AppTest] -->
